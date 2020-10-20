@@ -1,0 +1,87 @@
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.main{
+    color: rgb(167, 151, 151);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./photos/Wallpaper.jpg");
+    background-size: cover;
+}
+.photo {
+    margin-top: 10px;
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    border: 3px solid wheat;
+}
+.greeting {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-top :20px;
+}
+
+.name{
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    color:white;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rule1{
+    color: wheat;
+    width:60%;
+}
+
+.hobby{
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    color:whitesmoke;
+    letter-spacing: 3px;
+    font-size: 2rem;
+
+
+}
+.rule2{
+    color: wheat;
+}
+
+
+
+.nav-wrapper {
+    
+    position: center;
+    bottom: 0;
+    width: 100vx;
+    background-color:  black;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navigation a {
+    font-family: 'Shadows Into Light Two', cursive;  
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  .navigation a:hover {
+      background-color:transparent;
+  }
+
+  
+  
